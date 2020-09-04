@@ -6,3 +6,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.list {
+  width: 500px;
+  padding: 0;
+}
+
+.list-item {
+  display: block;
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+}
+
+input[type='search'] {
+  display: block;
+  width: 500px;
+  padding: 6px 2px;
+  font-size: 14px;
+  color: #4d4d4d;
+  border: 1px solid #ccc;
+}
